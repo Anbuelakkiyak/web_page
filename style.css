@@ -1,0 +1,131 @@
+
+.sidebar
+{
+position:fixed;
+left:0;
+width:150px;
+height:4000px;
+background-color:black;
+}
+.sidebar h2
+{
+font-size:15px;
+text-align:center;
+color:white;
+line-height:60px
+}
+.menu-item
+ {
+      padding:3px;
+      margin-bottom: 5px;
+width:90px;
+height:20px;
+      background-color:black;
+      cursor: pointer;
+     color:white;
+   
+ }
+
+    
+.menu-item.draggable
+ {
+cursor: grab;
+  
+ }
+.bottom{
+position:fixed;
+right:0;
+width:1160px;
+height:450px;
+background-color:blue;
+width: 10px;
+border-top:2px dotted black;
+border-right:2px dotted black;
+border-left: 2px dotted black;
+flex: 1;
+padding:574px;
+margin-top: 95px; 
+    
+}
+
+.top{
+position:fixed;
+margin-top:7px; 
+    padding:1px; 
+top:0;
+right:0;
+width:1160px;
+height:90px;
+background-color:pink;
+}
+.top h2
+{
+display:fixed;
+    
+ height:100px;   
+
+align-items: flex-first;
+
+            
+}
+.button-container 
+{
+      position:fixed;
+      top: 45px;
+      right:0px;
+    
+}
+ .button 
+{
+      background-color:green;
+      color: white;
+      padding: 10px 30px;
+      border: none;
+      cursor: pointer;
+      
+}
+.button1
+{
+      background-color:white;
+
+      color: black;
+      padding: 10px 30px;
+      border: none;
+      cursor: pointer;
+     
+}
+.button2
+{
+          position:fixed;
+            bottom: 20px; 
+            right: 100px; 
+            background-color:white; 
+            color:black;
+            border: none; 
+            padding: 10px 30px;
+            cursor: pointer;
+ 
+      }
+.button3
+{
+            position:fixed;
+            bottom: 20px; 
+            right: 10px; 
+            background-color:green; 
+            color: white;
+            border: none; 
+            padding: 10px 30px;
+            cursor: pointer; 
+}
+left-side, .right-side {
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .split-line {
+            width: 1px;
+            background-color: black;
+            border-left: 1px dotted black;
+            height: 100%;
+        }
